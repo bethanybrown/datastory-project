@@ -1,4 +1,101 @@
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+p h2 {
+  text-align: center;
+}
+.column {
+    float: left;
+}
+
+
+.column.side {
+    width: 25%;
+    border-top-style: solid;
+    border-right-style:solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.column.middle {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+body
+{background-image: url(https://i.pinimg.com/originals/a1/06/c8/a106c839be4cbebd8190d8087f3067df.jpg)
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    margin-bottom: 20px;
+}
+h2
+{text-align: center;
+color: white;
+}
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+#menu
+{
+background-image:url(https://i.pinimg.com/originals/a1/06/c8/a106c839be4cbebd8190d8087f3067df.jpg);
+background-repeat:no-repeat;
+width:2000px;
+height:69px;
+float:center;
+clear: both;
+}
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:1750px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;
+	display: inline;
+
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 70px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 20px;
+}
+
+#menu a:hover{
+	color:#BAD1F3;
+	background: url(http://host.web-print-design.com/statspinvet2/images/expanded-menu-bar.png) no-repeat;
+}
 h2 {
-  background-color: #607d8b;
   color: #ffffff;
 }
